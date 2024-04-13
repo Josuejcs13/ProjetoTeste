@@ -25,7 +25,7 @@ function App() {
           <Greeting name={user.name} age={user.age} sex={user.sex} />
         ))}
       </div>
-      <Footer></Footer>
+      <Footer/>
     </>
   )
 }
