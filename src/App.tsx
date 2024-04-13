@@ -1,4 +1,5 @@
 import "./App.css"
+import Footer from "./footer/footer"
 import Header from "./header/header"
 import Greeting from "./name/greeting"
 
@@ -24,6 +25,7 @@ function App() {
           <Greeting name={user.name} age={user.age} sex={user.sex} />
         ))}
       </div>
+      <Footer></Footer>
     </>
   )
 }
