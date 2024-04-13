@@ -1,4 +1,5 @@
 import logo from "../assets/netflix-icon.svg"
+import "./header.css"
 
 const Header = ()=>{
  return(
